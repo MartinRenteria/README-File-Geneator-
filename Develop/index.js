@@ -29,7 +29,7 @@ inquirer
         name: "contributions",
     }, {
         type: "input",
-        message: "Please list any licences for open source that you used:",
+        message: "Please list any licenses you wish to use for your project:",
         name: "license",
     }, {
         type: "input",
@@ -37,7 +37,7 @@ inquirer
         name: "gitHubRepo",
     }, {
         type: "input",
-        message: "What is your email?",
+        message: "What is your e-mail?",
         name: "email",
     }])
 
