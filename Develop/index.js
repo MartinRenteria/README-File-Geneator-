@@ -60,6 +60,7 @@ inquirer
         let readMePageTitle = `# **${response.projectName}**
 
     ## **Table of Contents**
+    
 - [**Description**](#description)
 - [**Installation Instructions**](#installation-instructions)
 - [**Usage**](#usage)
