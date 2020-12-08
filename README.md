@@ -11,7 +11,8 @@
 - [**Questions**](#questions)
 
 <br><br>
-Link: ![Uploading ReadMe File Generator Video.gif…]()
+Link: ![ReadMe File Generator Video](https://user-images.githubusercontent.com/68476218/101465688-1b3c1f00-38f5-11eb-924f-dc05d18a6d69.gif)
+
 <br><br>
 
 ## **Description**
