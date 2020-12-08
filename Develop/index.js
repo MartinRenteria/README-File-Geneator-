@@ -34,26 +34,20 @@ inquirer
     }, {
         type: "input",
         message: "What is the link to your GitHub Repo?",
-        name: "gitHubRepo",
+        name: "gitHub",
     }, {
         type: "input",
         message: "What is your e-mail?",
         name: "email",
     }])
-
-// // array of questions for user
-// const questions = [
-
-// ];
-
-// // function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-// // function to initialize program
-// function init() {
-
-// }
-
-// // function call to initialize program
-// init();
+    .then(response => {
+        console.log(response.projectName);
+        console.log(response.description);
+        console.log(response.installation);
+        console.log(response.usage);
+        console.log(response.tests);
+        console.log(response.contributions);
+        console.log(response.license);
+        console.log(response.email);
+        console.log(response.gitHub);
+    });
