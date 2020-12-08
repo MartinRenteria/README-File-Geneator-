@@ -39,6 +39,11 @@ inquirer
         type: "input",
         message: "What is your e-mail?",
         name: "email",
+    }, {
+        type: "input",
+        message: "What is the link to your Linkedin?",
+        name: "linkedin",
+        
     }])
     .then(response => {
         console.log(response.projectName);
@@ -50,4 +55,35 @@ inquirer
         console.log(response.license);
         console.log(response.email);
         console.log(response.gitHub);
+        console.log(response.linkedin);
+
+        let readMePageTitle = `# **${response.projectName}**
+
+    ## **Table of Contents**
+- [**Description**](#description)
+- [**Installation Instructions**](#installation-instructions)
+- [**Usage**](#usage)
+- [**Tests**](#tests)
+- [**Contributions**](#contributions)
+- [**Licenses**](#licenses)
+- [**Questions**](#questions)
+## **Description**
+${response.description}
+## **Installation Instructions**
+${response.installation}
+## **Usage**
+${response.usage}
+## **Tests**
+${response.tests}
+## **Contributions**
+${response.contributions}
+## **Licenses**
+${response.license}
+## **Questions**
+Please contact <${response.email}> if you have any questions or view my github (${response.gitHub}) and/or Linkedin (${response.linkedin})`
+
+        fs.writeFile("readme.md", readMePageTitle, (err) => {
+            if (err) console.log("Unable to write file");
+            else console.log("Writing file successful");
+        })
     });
