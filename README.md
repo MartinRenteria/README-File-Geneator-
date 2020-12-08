@@ -1,6 +1,6 @@
 # **ReadMe File Geneator**
 
-    ## **Table of Contents**
+    [## **Table of Contents**]
     
 - [**Description**](#description)
 - [**Installation Instructions**](#installation-instructions)
@@ -11,7 +11,8 @@
 - [**Questions**](#questions)
 
 <br><br>
-Link: ![ReadMe File Generator Video](https://user-images.githubusercontent.com/68476218/101465688-1b3c1f00-38f5-11eb-924f-dc05d18a6d69.gif)
+<b>Link:<b> https://drive.google.com/file/d/1e_SyyHKK7_Zdw0EnulzrUWB_gNrDaLtK/view
+![ReadMe File Generator Video](https://user-images.githubusercontent.com/68476218/101465688-1b3c1f00-38f5-11eb-924f-dc05d18a6d69.gif)
 
 <br><br>
 
