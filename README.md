@@ -1,6 +1,6 @@
-# **ReadMe File Geneator**
+# **ReadMe File Generator**
 
-    [## **Table of Contents**]
+    ## **Table of Contents**
     
 - [**Description**](#description)
 - [**Installation Instructions**](#installation-instructions)
